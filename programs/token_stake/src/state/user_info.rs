@@ -6,4 +6,6 @@ pub struct UserInfo {
 }
 
 pub const USER_INFO_SIZE: usize = 8;
-pub const USER_INFO_SEED: &str = "platform_info";
+
+#[constant]
+pub const USER_INFO_SEED: &str = "user_info";

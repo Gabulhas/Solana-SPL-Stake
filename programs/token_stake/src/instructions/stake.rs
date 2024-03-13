@@ -63,7 +63,7 @@ pub struct Stake<'info> {
     #[account(
       init_if_needed,
       space= 8 + USER_INFO_SIZE,
-      seeds= [   USER_INFO_SEED.as_bytes()],
+      seeds= [   USER_INFO_SEED.as_bytes(), user.key().as_ref()],
       bump,
       payer= user
       )]

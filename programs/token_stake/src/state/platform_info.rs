@@ -9,4 +9,6 @@ pub struct PlatformInfo {
 }
 
 pub const PLATFORM_INFO_SIZE: usize = 32 + 32 + 8;
+
+#[constant]
 pub const PLATFORM_INFO_SEED: &str = "platform_info";

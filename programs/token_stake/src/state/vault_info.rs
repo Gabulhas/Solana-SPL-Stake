@@ -6,4 +6,6 @@ pub struct VaultInfo {
 }
 
 pub const VAULT_INFO_SIZE: usize = 8;
+
+#[constant]
 pub const VAULT_INFO_SEED: &str = "vault_info";

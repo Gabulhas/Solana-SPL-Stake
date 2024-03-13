@@ -64,8 +64,7 @@ pub struct Unstake<'info> {
       space= 8 + USER_INFO_SIZE,
       seeds= [   USER_INFO_SEED.as_bytes()],
       bump,
-      payer= user
-      )]
+      payer= user)]
     pub user_info: Account<'info, UserInfo>,
 
     #[account(

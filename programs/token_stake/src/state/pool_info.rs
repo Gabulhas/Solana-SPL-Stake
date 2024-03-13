@@ -6,4 +6,6 @@ pub struct PoolInfo {
 }
 
 pub const POOL_INFO_SIZE: usize = 8;
+
+#[constant]
 pub const POOL_INFO_SEED: &str = "pool_info";
